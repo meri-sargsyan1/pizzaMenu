@@ -1,0 +1,157 @@
+    /* ----------------------------------------------------max-width:1392px--------- */
+    
+    @media screen and (max-width:1392px) {
+        /* --------------------------.header start */
+        .header {
+            width: 100%;
+            min-height: 130px;
+            padding-top: 25px;
+            padding-right: 60px;
+            padding-bottom: 25px;
+            padding-left: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px !important;
+            padding: 12px 24px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+    }
+    /* --------------------------.header end */
+    /* ----------------------------------------------------- max-width:1258px-------*/
+    
+    @media screen and (max-width:1258px) {}
+    /* ----------------------------------------------------- max-width:1108px-------*/
+    
+    @media screen and (max-width:1108px) {
+        /* --------------------------.header start */
+        .burger {
+            display: flex !important;
+        }
+        .chef-image {
+            display: none;
+        }
+        #mainNav {
+            display: none;
+        }
+        .hero-image {
+            display: none;
+        }
+        #city-popup {
+            width: 327px;
+            height: 135px;
+            border-radius: 30px;
+            display: none;
+            position: absolute;
+            top: 110px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            background: var(--White, #FFFFFF);
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            width: 300px;
+            text-align: center;
+            z-index: 999;
+        }
+        .heroBlock {
+            /* max-width: 1138px; */
+            width: 100%;
+            min-height: 368px;
+            display: flex;
+            justify-content: space-evenly !important;
+            align-items: center;
+            background: #7d5fff;
+            border-radius: 30px;
+            color: white;
+        }
+    }
+    /* ----------------------------------------------------- max-width:842px-------*/
+    
+    @media screen and (max-width: 842px) {
+        .heroBlock {
+            display: none !important;
+        }
+        .heroBefore {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    /* ----------------------------------------------------- max-width:778px-------*/
+    
+    @media screen and (max-width: 778px) {
+        /* --------------------------.header start */
+        .burger {
+            display: flex !important;
+        }
+        .city {
+            display: none;
+        }
+        .favorite {
+            display: none !important;
+        }
+        body {
+            padding-inline: 15px !important;
+        }
+    }
+    /* ----------------------------------------------------- max-width:376px-------*/
+    
+    @media screen and (max-width: 376px) {
+        body {
+            padding-inline: 2px !important;
+        }
+        /* --------------------------.header start */
+        .header {
+            min-height: 60px !important;
+        }
+        .burger {
+            display: block;
+        }
+        nav#mainNav {
+            display: none;
+        }
+        .header {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .logo-city,
+        .user-section {
+            gap: 12px;
+        }
+        .logo img {
+            width: 128.28204345703125px;
+            height: 33.1324462890625px;
+            gap: 26.1px;
+        }
+        .profile img {
+            width: 37.9999885559082px;
+            height: 36.7741813659668px;
+        }
+        .profile span {
+            display: none !important;
+        }
+    }
+    
+    @media screen and (max-width:350px) {
+        /* --------------------------.header start */
+        .header {
+            width: 100%;
+            min-height: 55px !important;
+            padding-top: 25px;
+            padding-right: 60px;
+            padding-bottom: 25px;
+            padding-left: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px !important;
+            padding: 12px 24px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+    }
