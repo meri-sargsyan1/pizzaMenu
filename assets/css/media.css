@@ -160,6 +160,14 @@
     /* ----------------------------------------------------- max-width:778px-------*/
     
     @media screen and (max-width: 778px) {
+        body {
+            padding-inline: 10px !important;
+        }
+        .imgPizza {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
         .navtree {
             display: flex !important;
             max-width: 335px;
@@ -419,6 +427,9 @@
     }
     
     @media screen and (max-width:350px) {
+        body {
+            padding-inline: 5px !important;
+        }
         /* --------------------------.header start */
         .header {
             width: 100%;
