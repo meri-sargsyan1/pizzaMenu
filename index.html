@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EateReat</title>
     <link rel="icon" href="./assets/images/iconn.svg">
+
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -56,14 +58,6 @@
         <div id="sideMenu" class="side-menu">
             <div class="close-btn" onclick="toggleMenu()">
 
-                <!-- <img src="./assets/images/MENU.svg" alt="">
-                <div class="logo">
-                    <img src="./assets/images/logo.svg" alt="">
-                </div>
-                <div class="userBlock">
-
-                    <img src="./assets/images/liza.svg" alt="">
-                </div> -->
             </div>
 
             <nav>
@@ -115,7 +109,8 @@
 
                             <div class="optians2">
                                 <button class="option-btn"><img src="./assets/images/mesta.svg" alt=""> Рядом</button>
-                                <button class="option-btn2"><img src="./assets/images/parametr.svg" alt=""> Параметры</button>
+                                <button class="option-btn2"><img src="./assets/images/parametr.svg" alt="">
+                                    Параметры</button>
                             </div>
 
                         </div>
@@ -145,7 +140,8 @@
 
                         <div class="optionss">
                             <button class="option-btn"><img src="./assets/images/mesta.svg" alt=""> Рядом</button>
-                            <button class="option-btn"><img src="./assets/images/parametr.svg" alt=""> Параметры</button>
+                            <button class="option-btn"><img src="./assets/images/parametr.svg" alt="">
+                                Параметры</button>
                         </div>
                         <a href="#" class="how-link">Как это работает?</a>
                     </div>
@@ -157,14 +153,340 @@
         </section>
 
 
-        <!-- ----------------------------------section contenLarge END-->
+
+        <!-- ----------------section ------- -->
+        <div class="section">
+            <div class="container-fluid">
+                <section class="slider-section">
+                    <div class="popular-headerrAfter">
+                        <h2>Популярные подборки</h2>
+                    </div>
+                    <div class="popular-headerr">
+                        <div class="h2">
+                            <h2>Популярные подборки</h2>
+                        </div>
+                        <div class="nextBack">
+                            <button class="slider-btn left" id="scrollLeft">←</button>
+                            <button class="slider-btn right" id="scrollRight">→</button>
+                        </div>
+                    </div>
+
+                    <div class="slider-wrapper">
+                        <div class="fade-left"></div>
+                        <div class="fade-right"></div>
+                        <div class="slider" id="slider">
+                            <div class="cardMini">
+                                <img src="./assets/images/xinkali.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие хинкали</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/ajarakan.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Легендарные хачапури</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/salati.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие салаты</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/vegan.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие веган</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/tort.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Где поесть рамен</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/sup.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие хинкали</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/xinkali.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие хинкали</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/ajarakan.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Легендарные хачапури</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/salati.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие салаты</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/vegan.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие веган</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/tort.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Где поесть рамен</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/xinkali.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие хинкали</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/ajarakan.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Легендарные хачапури</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/salati.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие салаты</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/vegan.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие веган</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/tort.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Где поесть рамен</p>
+                            </div>
+                            <div class="cardMini">
+                                <img src="./assets/images/sup.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие хинкали</p>
+                            </div>
+
+                            <div class="cardMini">
+                                <img src="./assets/images/sup.svg" alt="Item">
+                                <div class="stars">⭐⭐⭐⭐⭐ <span>10.0</span></div>
+                                <p>Лучшие хинкали</p>
+                            </div>
+
+                        </div>
+                        <div class="fade-right"></div>
+
+                        <div class="scroll-indicator" id="scrollIndicator"></div>
+                    </div>
+                </section>
+                <a href="#" class="slider-btn1">Все подборки <img src="./assets/images/slaq.svg" alt=""></a>
+            </div>
+        </div>
+        <!-- ==================================      top-places =========== -->
+
+        <section class="top-places">
+            <div class="popular-header2After">
+                <h2>Интересные места в <span style="color:#6F64FE;text-decoration: underline;cursor: pointer;">Батуми</span> по мнению гостей
+                </h2>
+            </div>
+            <div class="popular-header2">
+                <h2>Интересные места в <span style="color:#6F64FE;text-decoration: underline;cursor: pointer;">Батуми</span> по мнению гостей
+                </h2>
+                <div class="howLink">
+                    <a href="#" class="see-all">Смотреть все <img src="./assets/images/slaq2.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="swiper interesting-swiper">
+
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="column">
+                            <div class="column-header">
+                                <h3>Русские рестораны</h3>
+                                <p>Где подают настоящие русские блюда</p>
+                            </div>
+                            <div class="card-listTwoo">
+                                <div class="card" style="background-image: url('./assets/images/restoran1.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Steak It Easy</h4>
+                                </div>
+                                <div class="card" style="background-image: url('./assets/images/restoran2.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating">
+
+                                            <img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Пей да гуляй</h4>
+                                </div>
+                                <div class="card" style="background-image: url('./assets/images/restoran3.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating">
+                                            <img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Пей да гуляй</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="view-top">Смотреть топ 10</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="column">
+                            <div class="column-header">
+                                <h3>Пиццерии</h3>
+                                <p>Рейтинг лучших пиццерий Батуми</p>
+                            </div>
+                            <div class="card-listTwoo">
+                                <div class="card" style="background-image: url('./assets/images/restoran4.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Steak It Easy</h4>
+                                </div>
+                                <div class="card" style="background-image: url('./assets/images/restoran5.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Пей да гуляй</h4>
+                                </div>
+                                <div class="card" style="background-image: url('./assets/images/restoran6.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Пей да гуляй</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="view-top">Смотреть топ 10</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="column">
+                            <div class="column-header">
+                                <h3>Где есть стейки</h3>
+                                <p>Стейк-хаусы и не только</p>
+                            </div>
+                            <div class="card-listTwoo">
+                                <div class="card" style="background-image: url('./assets/images/restoran7.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Steak It Easy</h4>
+                                </div>
+                                <div class="card" style="background-image: url('./assets/images/restoran2.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Пей да гуляй</h4>
+                                </div>
+                                <div class="card" style="background-image: url('./assets/images/restoran8.png')">
+                                    <div class="card-info">
+                                        <div class="p">
+                                            <p>150 отзывов</p>
+                                        </div>
+                                        <div class="rating"><img src="./assets/images/zvyozdchki.svg" alt="">
+                                            <div class="imSpan">
+                                                <img src="./assets/images/R.svg" alt="">
+                                                <span>10</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <h4>Пей да гуляй</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="view-top">Смотреть топ 10</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+            <a href="#" class="slider-btn2">Смотреть все →</a>
+        </section>
+
 
     </main>
 
-
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
+
+</html>
 
 </html>
