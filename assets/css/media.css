@@ -237,7 +237,33 @@
         a.slider-btn2 {
             display: flex !important;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
+            max-width: 335px;
+            width: 100%;
+            min-height: 48.30119323730469px;
+            border-radius: 15.54px;
+            justify-content: space-between;
+            padding-top: 9.71px;
+            padding-right: 27px;
+            padding-bottom: 9.71px;
+            padding-left: 27px;
+            background: #6F64FE;
+            font-weight: 600;
+            font-size: 13.52px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-thickness: 0%;
+            text-decoration-skip-ink: auto;
+            color: var(--White, #FFFFFF);
+        }
+        .gastroteam-item {
+            max-width: 335px !important;
+            width: 100%;
+            min-height: 323px;
+            border-radius: 20px;
+            padding: 20px;
         }
         /* ------------------------------------------ GASTRO */
         .gastroBox {
