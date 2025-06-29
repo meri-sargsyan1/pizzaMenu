@@ -213,15 +213,12 @@
             padding-inline: 15px !important;
         }
         /* ------------top places */
-        .popular-header2 {
-            display: none !important;
-        }
         .popular-header2After {
-            width: 314px;
-            height: 58px;
             display: flex !important;
             align-items: center;
             justify-content: center;
+            width: 314px;
+            height: 58px;
             font-weight: 700;
             font-size: 24px;
             line-height: 100%;
@@ -233,6 +230,50 @@
             font-weight: 700;
             font-size: 24px;
             line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: var(--Black, #1E1C2F);
+        }
+        a.slider-btn2 {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+        /* ------------------------------------------ GASTRO */
+        .gastroBox {
+            display: none !important;
+        }
+        .popular-header2 {
+            display: none !important;
+        }
+        .gastroBoxAfter {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 60px;
+        }
+        .gastroBoxAfter span {
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #6F64FE;
+        }
+        .gastroBoxAfter h2 {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: var(--Black, #1E1C2F);
+        }
+        .gastroBoxAfter p {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
             letter-spacing: 0%;
             text-align: center;
             color: var(--Black, #1E1C2F);

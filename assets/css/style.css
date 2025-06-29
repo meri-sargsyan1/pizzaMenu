@@ -1216,6 +1216,10 @@ nav a {
     margin-top: 15px;
 }
 
+a.slider-btn2 {
+    display: none;
+}
+
 .swiper-pagination {
     margin-top: 10px;
     text-align: center;
@@ -1280,7 +1284,7 @@ nav a {
     letter-spacing: 0%;
     cursor: pointer;
     color: #6F64FE;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .gastroTitle h2 {
